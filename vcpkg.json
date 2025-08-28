@@ -1,0 +1,12 @@
+{
+  "name": "image-viewer-1to1",
+  "version-string": "1.0.0",
+  "dependencies": [
+    {
+      "name": "vtk",
+      "features": [
+        "opengl"
+      ]
+    }
+  ]
+}
