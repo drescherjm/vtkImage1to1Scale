@@ -13,6 +13,27 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
 ## Initial Setup:
 
 1. Clone vcpkg to an appropriate location on your system.
-   <code>
+   
+   ```shell
    git clone https://github.com/microsoft/vcpkg.git
-   </code>
+   ```
+   
+2. Bootstrap vcpkg
+   
+   On windows:
+   
+   ```shell
+   cd vcpkg
+   ./bootstrap.bat
+   ```
+   
+   On Linux, macOS ...
+   
+   ```bash
+   cd vcpkg
+   ./bootstrap.sh
+   ```
+   
+   
+   
+   
