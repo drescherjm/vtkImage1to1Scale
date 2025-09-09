@@ -25,6 +25,7 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    ```shell
    cd vcpkg
    ./bootstrap.bat
+   cd ..
    ```
    
    On Linux, macOS ...
@@ -32,6 +33,7 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    ```bash
    cd vcpkg
    ./bootstrap.sh
+   cd ..
    ```
    
    
