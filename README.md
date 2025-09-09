@@ -17,7 +17,6 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    ```shell
    git clone https://github.com/microsoft/vcpkg.git
    ```
-   
 2. Bootstrap vcpkg
    
    On windows:
@@ -33,7 +32,8 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    cd vcpkg
    ./bootstrap.sh
    ```
-   
-   
-   
+3. Now go up 1 level in the folder tree.
+   ```shell
+   cd ..
+   ```
    
