@@ -32,7 +32,7 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    cd vcpkg
    ./bootstrap.sh
    ```
-3. Now go up 1 level in the folder tree.
+3. Now go up 1 level in the folder tree so that the vcpkg folder is a subfolder of the current folder.
    ```shell
    cd ..
    ```
