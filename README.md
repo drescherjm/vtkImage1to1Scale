@@ -13,6 +13,4 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
 ## Initial Setup:
 
 1. Clone vcpkg to an appropriate location on your system.
-   <code>
-   git clone https://github.com/microsoft/vcpkg.git
-   </code>
+   <code>git clone https://github.com/microsoft/vcpkg.git</code>
