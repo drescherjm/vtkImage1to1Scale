@@ -48,3 +48,19 @@ cd vtkImage1to1Scale
 mkdir build
 cd build
 ```
+## Have CMake configure and generate
+On Windows (with Visual Studio 2022): 
+```shell
+cmake -S .. -B . -DCMAKE_TOOLCHAIN_FILE="..\vcpkg\scripts\buildsystems\vcpkg.cmake" -G "Visual Studio 17 2022"
+```
+On Linux:
+```bash
+cmake -S .. -B . -DVCPKG_TARGET_TRIPLET="x64-linux-dynamic"  -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
+```
+
+After executing either of these commands vcpkg will fetch all the dependencies of vtk and build vtk as shared libraries (.so or .dll files)
+
+## Now build the project!
+```shell
+cmake --build .
+```
