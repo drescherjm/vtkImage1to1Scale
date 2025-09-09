@@ -1,6 +1,6 @@
 # vtkImage1to1Scale
 
-This is a small vtk example that downloads and builds vtk using vcpkg in manifest mode.
+This is a small vtk example that uses vcpkg and CMake to download and build vtk and its dependencies using vcpkg in manifest mode.
 
 ## Prerequisites:
 
