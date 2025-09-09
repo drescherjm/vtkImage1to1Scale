@@ -36,4 +36,15 @@ This is a small vtk example that downloads and builds vtk using vcpkg in manifes
    ```shell
    cd ..
    ```
-   
+## Clone this repository
+```shell
+git clone https://github.com/drescherjm/vtkImage1to1Scale.git
+```
+After cloning you should have a vcpkg folder and a vtkImage1to1Scale in the current folder.
+
+## Create the build folder
+```shell
+cd vtkImage1to1Scale
+mkdir build
+cd build
+```
